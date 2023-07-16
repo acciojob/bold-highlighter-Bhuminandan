@@ -1,12 +1,14 @@
 function highlight() {
-    //Write your code here
-
-
+ let boldTxt = document.getElementsByTagName("strong");
+ for (let i = 0; i < boldTxt.length; i++) {
+    boldTxt[i].style.color = "green";
+ }
 }
 
 
 function return_normal() {
-    //Write your code here
-
-    
+    let boldTxt = document.getElementsByTagName("strong");
+    for (let i = 0; i < boldTxt.length; i++) {
+        boldTxt[i].style.color = "black";
+    }
 }
